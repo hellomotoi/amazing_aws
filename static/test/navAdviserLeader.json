@@ -1,0 +1,72 @@
+{
+  "code": 200,
+  "message": "请求成功",
+  "data": {
+    "userInfo": {
+      "id": 30560,
+      "username": "李康",
+      "password": "E10ADC3949BA59ABBE56E057F20F883E",
+      "nickname": null,
+      "headimg": null,
+      "mobile": "13651200755",
+      "department": 1,
+      "email": null,
+      "creattime": null,
+      "status": 0,
+      "isvalid": 0
+    },
+    "role": [
+      {
+        "roleId": 2,
+        "roleName": "录入客服",
+        "description": "录入线索信息",
+        "createTime": 1488797105000,
+        "status": 0
+      }
+    ],
+    "auth": [
+      {
+        "authId": 112,
+        "authName": "工作面板",
+        "description": "工作面板 录入客服",
+        "createTime": 1493261049000,
+        "belongSys": 2,
+        "url": null,
+        "status": 0,
+        "isvalid": 0,
+        "parentId": 0,
+        "param": null,
+        "icon": "icon-mianban",
+        "page": null
+      },
+      {
+        "authId": 113,
+        "authName": "待录入线索",
+        "description": "待我处理 录入客服",
+        "createTime": 1493261107000,
+        "belongSys": 2,
+        "url": "/aws/collectclue/index?status=pending",
+        "status": 0,
+        "isvalid": 0,
+        "parentId": 0,
+        "param": "pending",
+        "icon": "icon-tobe\nicon-tobe\n",
+        "page": "/collect/pending"
+      },
+      {
+        "authId": 114,
+        "authName": "已提交线索",
+        "description": "我已处理 录入客服",
+        "createTime": 1493261143000,
+        "belongSys": 2,
+        "url": "/aws/collectclue/index?status=submit",
+        "status": 0,
+        "isvalid": 0,
+        "parentId": 0,
+        "param": "submit",
+        "icon": "icon-done\n",
+        "page": "/collect/submit"
+      }
+    ]
+  }
+}

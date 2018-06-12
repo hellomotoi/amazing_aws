@@ -1,0 +1,186 @@
+{
+  "collectClue": [
+    {
+      "id": "",
+      "label": "工作面板",
+      "icon": "icon-mianban",
+      "pageUrl": ""
+    },
+    {
+      "id": "",
+      "label": "待录入线索",
+      "icon": "icon-mianban",
+      "pageUrl": "/collect/pending",
+      "status": "pending"
+    },
+    {
+      "id": "",
+      "label": "已提交线索",
+      "icon": "icon-mianban",
+      "pageUrl": "/collect/submit",
+      "status": "submit"
+    }
+  ],
+  "check": [
+    {
+      "id": "",
+      "label": "工作面板",
+      "icon": "icon-mianban",
+      "pageUrl": ""
+    },
+    {
+      "id": "",
+      "label": "待我处理",
+      "icon": "icon-mianban",
+      "pageUrl": "",
+      "children": [
+        {
+          "id": "",
+          "label": "待核实线索",
+          "icon": "icon-mianban",
+          "pageUrl": "/check/checkingClue",
+          "status": "toverify"
+        },
+        {
+          "id": "",
+          "label": "待回访商机",
+          "icon": "icon-mianban",
+          "pageUrl": "/check/callback",
+          "status": "todo"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "label": "我已处理",
+      "icon": "icon-mianban",
+      "pageUrl": "",
+      "children": [
+        {
+          "id": "",
+          "label": "已核实线索",
+          "icon": "icon-mianban",
+          "pageUrl": "/check/checkedClue",
+          "status": "check"
+        },
+        {
+          "id": "",
+          "label": "已回访商机",
+          "icon": "icon-mianban",
+          "pageUrl": "/check/callbacked",
+          "status": "done"
+        },
+        {
+          "id": "",
+          "label": "已废弃线索",
+          "icon": "icon-mianban",
+          "pageUrl": "/check/abandonedClue",
+          "status": "discard"
+        }
+      ]
+    }
+  ],
+  "adviserLeader": [
+    {
+      "id": "",
+      "label": "工作面板",
+      "icon": "icon-mianban",
+      "pageUrl": ""
+    },
+    {
+      "id": "",
+      "label": "待我处理",
+      "icon": "icon-mianban",
+      "pageUrl": "",
+      "children": [
+        {
+          "id": "",
+          "label": "待分配婚礼",
+          "icon": "icon-mianban",
+          "pageUrl": "/assignment/assigns",
+          "status": "assignment"
+        },
+        {
+          "id": "",
+          "label": "待处理丢单",
+          "icon": "icon-mianban",
+          "pageUrl": "/adviserLeader/dispose",
+          "status": "dolost"
+        }
+      ]
+    },
+    {
+      "id": "",
+      "label": "下属跟进中的婚礼",
+      "icon": "icon-mianban",
+      "pageUrl": "/adviserLeader/followUpWed",
+      "status": "all"
+    },
+    {
+      "id": "",
+      "label": "我已处理",
+      "icon": "icon-mianban",
+      "pageUrl": "",
+      "children": [
+        {
+          "id": "",
+          "label": "已丢单婚礼",
+          "icon": "icon-mianban",
+          "pageUrl": "/adviserLeader/lostOrder",
+          "status": "lostOrder"
+        },
+        {
+          "id": "",
+          "label": "已归档婚礼",
+          "icon": "icon-mianban",
+          "pageUrl": "/adviserLeader/archived",
+          "status": "archived"
+        }
+      ]
+    }
+  ],
+  "adviser": [
+    {
+      "id": "",
+      "label": "工作面板",
+      "icon": "icon-mianban",
+      "pageUrl": ""
+    },
+    {
+      "id": "",
+      "label": "跟进中婚礼",
+      "icon": "icon-mianban",
+      "pageUrl": "/adviser/followUp",
+      "status": "all"
+    },
+    {
+      "id": "",
+      "label": "申请丢单婚礼",
+      "icon": "icon-mianban",
+      "pageUrl": "/adviser/losing",
+      "status": "losing"
+    },
+    {
+      "id": "",
+      "label": "我已完成婚礼",
+      "icon": "icon-mianban",
+      "pageUrl": "",
+      "children": [
+        {
+          "id": "",
+          "label": "已丢单婚礼",
+          "icon": "icon-mianban",
+          "pageUrl": "/adviser/lostOrder",
+          "status": "lostOrder"
+        },
+        {
+          "id": "",
+          "label": "已归档婚礼",
+          "icon": "icon-mianban",
+          "pageUrl": "/adviser/archived",
+          "status": "archived"
+        }
+      ]
+    }
+  ]
+}

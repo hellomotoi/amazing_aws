@@ -1,0 +1,68 @@
+{
+  "code": 200,
+  "message": "请求成功",
+  "data": {
+    "wedInfo": {
+      "title": "婚礼基本信息",
+      "status": "2",
+      "list": [
+        {
+          "name": "婚礼日期",
+          "value": [
+            2020,
+            "08",
+            28
+          ],
+          "key": [
+            "wed_date_year",
+            "wed_date_month",
+            "wed_date_day"
+          ],
+          "type": 1
+        },
+        {
+          "name": "婚礼人数",
+          "value": "66666",
+          "key": "guest_num",
+          "type": 1
+        },
+        {
+          "name": "举办城市",
+          "value": [
+            1,
+            36,
+            61
+          ],
+          "key": [
+            "wed_nation",
+            "wed_province",
+            "wed_city"
+          ],
+          "type": 1
+        },
+        {
+          "name": "婚礼场地",
+          "value": "亮点设计中心",
+          "key": "wed_hotel",
+          "type": 1
+        },
+        {
+          "name": "婚礼预算",
+          "value": [],
+          "key": [
+            "budget_begin",
+            "budget_end"
+          ],
+          "type": 1
+        },
+        {
+          "name": "总体预算",
+          "value": "",
+          "key": "budget_remark",
+          "type": 1
+        }
+      ]
+    },
+    "cusInfo": null
+  }
+}

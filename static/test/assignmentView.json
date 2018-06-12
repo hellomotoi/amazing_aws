@@ -1,0 +1,70 @@
+{
+  "code": 200,
+  "message": "请求成功",
+  "data": {
+    "userinfo": [
+      {
+        "name": "客户姓名",
+        "value": "二",
+        "key": "name",
+        "type": 0
+      },
+      {
+        "name": "联系电话",
+        "value": "13433211111",
+        "key": "phone",
+        "type": 0
+      },
+      {
+        "name": "客户微信",
+        "value": "",
+        "key": "weixin",
+        "type": 0
+      },
+      {
+        "name": "婚礼人数",
+        "value": "333",
+        "key": "guest_num",
+        "type": 0
+      },
+      {
+        "name": "婚礼场地",
+        "value": "嘎嘎嘎",
+        "key": "hotel",
+        "type": 0
+      }
+    ],
+    "sysinfo": [
+      {
+        "name": "线索来源",
+        "value": "微信",
+        "key": "sources",
+        "type": 0
+      },
+      {
+        "name": "提交时间",
+        "value": "2017-05-19 17:23:22",
+        "key": "submitDate",
+        "type": 0
+      },
+      {
+        "name": "线索备注",
+        "value": "1",
+        "key": "remark",
+        "type": 0
+      },
+      {
+        "name": "提交时间",
+        "value": "2017-05-19 17:24:22",
+        "key": "submitDate",
+        "type": 0
+      },
+      {
+        "name": "核实备注",
+        "value": "的点点滴滴多多多多多多多多多多多多多多多多多多多多多多多打对多打多多多",
+        "key": "check_remark",
+        "type": 0
+      }
+    ]
+  }
+}
